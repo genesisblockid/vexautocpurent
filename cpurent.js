@@ -73,6 +73,7 @@ var acc = "account" //cpu receiver
               expireSeconds: 30,
             }).then((res) => {
                 console.log(res)
+                rentCpu();
             });
           }
 
